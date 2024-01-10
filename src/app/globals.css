@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgb(186, 187, 191);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgb(241, 34, 34);
+}
+
+.show-list::-webkit-scrollbar {
+	display: none;
+}
+
+.show-list {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.star {
+	position: absolute;
+	display: inline-flex;
+	mask: url('/icon-star.svg') no-repeat center left;
+}
