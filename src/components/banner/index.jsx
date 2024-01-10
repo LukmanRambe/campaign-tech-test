@@ -7,7 +7,7 @@ import Link from 'next/link';
 const Banner = ({ show }) => {
 	return (
 		<section className='relative w-full h-dvh bg-gradient-to-b from-black/45 to-black/0'>
-			<div className='inset-0 flex items-center w-full pt-12 sm:pt-0 px-4 sm:px-12 h-full min-h-[75dvh] after:contents-[""] after:absolute after:inset-0 absolute after:z-[1] after:bg-gradient-to-tr after:from-black sm:after:from-black/80 after:to-black/0'>
+			<div className='inset-0 flex items-center w-full pt-12 sm:pt-0 px-4 sm:px-6 lg:px-12 h-full min-h-[75dvh] after:contents-[""] after:absolute after:inset-0 absolute after:z-[1] after:bg-gradient-to-tr after:from-black sm:after:from-black/80 after:to-black/0'>
 				<Image
 					src={show?.image?.original ?? '/fallback-image.png'}
 					alt={show?.name}
@@ -25,7 +25,7 @@ const Banner = ({ show }) => {
 
 							<div className='flex items-center gap-3 text-xs'>
 								<span className='flex items-center justify-start gap-1 px-2 py-1 tracking-wide rounded-full bg-white/25'>
-									<Image src={'/icon-star.svg'} alt='Star Icon' width={12} height={12} />
+									<Image src={'/icon-star.svg'} alt='Star' width={12} height={12} className='w-auto h-auto' />
 									<span>{show?.rating?.average ?? 0}</span>
 								</span>
 
@@ -50,7 +50,7 @@ const Banner = ({ show }) => {
 
 					<Link
 						href={show?.url ?? ''}
-						className='px-12 py-4 transition-all duration-150 ease-in-out bg-red-600 rounded-full cursor-pointer w-full sm:w-fit focus:bg-red-700 hover:bg-red-700 active:bg-red-800 shadow-[0_8px_15px_0_rgba(220,38,38,.3)] uppercase font-medium tracking-wide text-center'>
+						className='px-12 py-4 transition-all duration-150 ease-in-out bg-red-600 rounded-full cursor-pointer w-full sm:w-fit focus:bg-red-700 hover:bg-red-700 active:bg-red-800 shadow-[0_8px_15px_0_rgba(220,38,38,.3)] uppercase font-medium tracking-wide text-center text-sm sm:text-base'>
 						WATCH NOW
 					</Link>
 				</article>
