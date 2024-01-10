@@ -45,7 +45,7 @@ npm run dev
 
 Then you will see a simple web app page like this:
 
-<img src="https://cdn.discordapp.com/attachments/1188272418310070282/1194599530478436462/image.png?ex=65b0f082&is=659e7b82&hm=add25102d73e0c9c19e267f5f25a678be658491ac77948d8c2138d6d899f25e3&" width="100" alt="Campflix Banner">
+<img src="https://cdn.discordapp.com/attachments/1188272418310070282/1194599530478436462/image.png?ex=65b0f082&is=659e7b82&hm=add25102d73e0c9c19e267f5f25a678be658491ac77948d8c2138d6d899f25e3&" alt="Campflix Banner">
 
 ## IDE setup
 
