@@ -10,6 +10,7 @@ const Show = ({ show }) => {
 				src={show?.image?.medium ?? '/fallback-image.png'}
 				alt={show?.name}
 				fill={true}
+				sizes='(max-width: 230px) 100%'
 				className='object-cover w-full h-full z-[1] group-hover:scale-110 scale-100 transition-all duration-[.25s] ease-in-out'
 			/>
 
@@ -24,7 +25,7 @@ const Show = ({ show }) => {
 
 						<div className='flex items-center gap-1'>
 							<span className='flex items-center justify-start gap-1 px-2 py-1 tracking-wide rounded-full bg-white/25'>
-								<Image src={'/icon-star.svg'} alt='Star Icon' width={12} height={12} />
+								<Image src={'/icon-star.svg'} alt='Star' width={12} height={12} className='w-auto h-auto' />
 								<span>{show?.rating?.average ?? 0}</span>
 							</span>
 

@@ -10,9 +10,9 @@ const Loading = () => {
 			<main className='relative flex flex-col items-center min-h-screen'>
 				<section
 					role='status'
-					class='flex items-center justify-center h-dvh w-full bg-gray-300 rounded-lg animate-pulse relative'>
+					className='relative flex items-center justify-center w-full bg-gray-300 rounded-lg h-dvh animate-pulse'>
 					<svg
-						class='w-10 h-10 text-gray-200'
+						className='w-10 h-10 text-gray-200'
 						aria-hidden='true'
 						xmlns='http://www.w3.org/2000/svg'
 						fill='currentColor'
@@ -22,33 +22,33 @@ const Loading = () => {
 					</svg>
 
 					<article className='w-full absolute inset-0 z-[2] flex flex-col justify-center px-4 sm:px-12 items-start text-white'>
-						<div class='h-7 sm:h-10 bg-gray-400 rounded-full w-40 sm:w-52 mb-12'></div>
+						<div className='w-40 mb-12 bg-gray-400 rounded-full h-7 sm:h-10 sm:w-52'></div>
 
-						<div class='h-2.5 bg-gray-400 rounded-full w-48 mb-4'></div>
+						<div className='h-2.5 bg-gray-400 rounded-full w-48 mb-4'></div>
 
 						<article className='flex gap-2'>
-							<div class='h-2.5 bg-gray-400 rounded-full w-10 mb-4'></div>
-							<div class='h-2.5 bg-gray-400 rounded-full w-10 mb-4'></div>
-							<div class='h-2.5 bg-gray-400 rounded-full w-10 mb-4'></div>
+							<div className='h-2.5 bg-gray-400 rounded-full w-10 mb-4'></div>
+							<div className='h-2.5 bg-gray-400 rounded-full w-10 mb-4'></div>
+							<div className='h-2.5 bg-gray-400 rounded-full w-10 mb-4'></div>
 						</article>
 
 						<article className='flex flex-col gap-2'>
-							<div class='flex items-center'>
-								<div class='h-2.5 bg-gray-400 rounded-full w-16 sm:w-32'></div>
-								<div class='h-2.5 ms-2 bg-gray-400 rounded-full w-12 sm:w-24'></div>
-								<div class='h-2.5 ms-2 bg-gray-400 rounded-full w-20 sm:w-48'></div>
+							<div className='flex items-center'>
+								<div className='h-2.5 bg-gray-400 rounded-full w-16 sm:w-32'></div>
+								<div className='h-2.5 ms-2 bg-gray-400 rounded-full w-12 sm:w-24'></div>
+								<div className='h-2.5 ms-2 bg-gray-400 rounded-full w-20 sm:w-48'></div>
 							</div>
 
-							<div class='flex items-center'>
-								<div class='h-2.5 bg-gray-400 rounded-full w-20 sm:w-48'></div>
-								<div class='h-2.5 ms-2 bg-gray-400 rounded-full w-16 sm:w-24'></div>
-								<div class='h-2.5 ms-2 bg-gray-400 rounded-full w-12 sm:w-32'></div>
+							<div className='flex items-center'>
+								<div className='h-2.5 bg-gray-400 rounded-full w-20 sm:w-48'></div>
+								<div className='h-2.5 ms-2 bg-gray-400 rounded-full w-16 sm:w-24'></div>
+								<div className='h-2.5 ms-2 bg-gray-400 rounded-full w-12 sm:w-32'></div>
 							</div>
 
-							<div class='flex items-center'>
-								<div class='h-2.5 bg-gray-400 rounded-full w-12 sm:w-24'></div>
-								<div class='h-2.5 ms-2 bg-gray-400 rounded-full w-20 sm:w-32'></div>
-								<div class='h-2.5 ms-2 bg-gray-400 rounded-full w-16 sm:w-48'></div>
+							<div className='flex items-center'>
+								<div className='h-2.5 bg-gray-400 rounded-full w-12 sm:w-24'></div>
+								<div className='h-2.5 ms-2 bg-gray-400 rounded-full w-20 sm:w-32'></div>
+								<div className='h-2.5 ms-2 bg-gray-400 rounded-full w-16 sm:w-48'></div>
 							</div>
 						</article>
 					</article>
@@ -63,18 +63,18 @@ const Loading = () => {
 								className='my-3 relative min-w-[230px] aspect-[2/3] rounded-lg overflow-hidden group shadow-[0_5px_12px_rgb(255_0_0_/_0.35)] animate-pulse'>
 								<div className='relative bottom-0 left-0 z-50 w-full h-full bg-gray-200'>
 									<article className='w-full absolute inset-0 z-[2] flex flex-col justify-end pb-8 px-4 items-start text-white'>
-										<div class='h-2.5 bg-gray-400 rounded-full w-20 mb-4'></div>
+										<div className='h-2.5 bg-gray-400 rounded-full w-20 mb-4'></div>
 
 										<article className='flex flex-col gap-2'>
-											<div class='flex items-center'>
-												<div class='h-2.5 bg-gray-400 rounded-full w-6'></div>
-												<div class='h-2.5 ms-2 bg-gray-400 rounded-full w-6'></div>
+											<div className='flex items-center'>
+												<div className='h-2.5 bg-gray-400 rounded-full w-6'></div>
+												<div className='h-2.5 ms-2 bg-gray-400 rounded-full w-6'></div>
 											</div>
 
-											<div class='flex items-center'>
-												<div class='h-3 bg-gray-400 rounded-full w-8'></div>
-												<div class='h-3 ms-2 bg-gray-400 rounded-full w-8'></div>
-												<div class='h-3 ms-2 bg-gray-400 rounded-full w-8'></div>
+											<div className='flex items-center'>
+												<div className='w-8 h-3 bg-gray-400 rounded-full'></div>
+												<div className='w-8 h-3 bg-gray-400 rounded-full ms-2'></div>
+												<div className='w-8 h-3 bg-gray-400 rounded-full ms-2'></div>
 											</div>
 										</article>
 									</article>
