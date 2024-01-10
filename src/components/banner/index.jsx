@@ -25,7 +25,7 @@ const Banner = ({ show }) => {
 
 							<div className='flex items-center gap-3 text-xs'>
 								<span className='flex items-center justify-start gap-1 px-2 py-1 tracking-wide rounded-full bg-white/25'>
-									<Image src={'/icon-star.svg'} alt='Star' width={12} height={12} className='w-auto h-auto' />
+									<Image src={'/icon-star.svg'} alt='Star' width={12} height={12} className='w-[12px] h-[12px]' />
 									<span>{show?.rating?.average ?? 0}</span>
 								</span>
 
