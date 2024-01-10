@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Campflix - Lukman Rambe
+
+This is a project for Campaign Technical Assignment. A website to list all TV Shows from an API.
+
+## Technical Assignment Details ##
+
+### What to Make? ###
+
+* Use HTML and Javascript
+* Call this api http://api.tvmaze.com/search/shows?q=girls and use the json from it. The main properties are url and name, you can use other properties as creative as you want. But the main properties must displayed in UI  
+* Display the data using this design https://imgur.com/MtilNpm
+* Explanation of design in above url (https://imgur.com/MtilNpm) : 
+* 1 Hardcode text Campflix bold style
+* 2 Textbox for search and profile name / user name just fill your name e.g budi erwanto
+* 3 Display a picture from the api using url property can be 1st image in array or any random up to you
+* 4 Display all tv shows from this api http://api.tvmaze.com/search/shows?q=girls, scrollable to the right
+* 5 Bonus if you can implement search api, but not mandatory 
+
+### Main Quest ###
+
+* Use any of these library reactJs / nextJs
+* Implement features from what to make above using one of these library
+* tips : 
+* 1. read the documentation from the website
+* 2. try to understand the concept 
+* 3. start implement
+* for example if you choose react as the library then :
+* 1.  go to this site https://reactjs.org/docs/getting-started.html read and try to understand
+* 2.  after that go to the Main Concept section and follow the guide and hands on so you can understand what is react
+* 3.  try to implement what you know from reading the docs
+* output : 
+* 1. Functional page displaying list of tvs and search function but using library reactJs / nextJs ( one of this not all )
+* 2. UI section without api call got 50% score
+* 3. UI with api call got 100% score
+* good luck and have fun.
 
 ## Getting Started
 
-First, run the development server:
+To run this example, simply do:
 
-```bash
+```sh
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then you will see a simple web app page like this:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<img src="https://cdn.discordapp.com/attachments/1188272418310070282/1194599530478436462/image.png?ex=65b0f082&is=659e7b82&hm=add25102d73e0c9c19e267f5f25a678be658491ac77948d8c2138d6d899f25e3&" width="100" alt="Campflix Banner">
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## IDE setup
 
-## Learn More
+VSCode is highly preferred. Please ensure you have installed these extensions:
 
-To learn more about Next.js, take a look at the following resources:
+- Prettier
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Useful Commands
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```sh
+#to run in dev mode
+npm run dev
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#to run in qa or production env. Expect to run this in docker
+npm run start
+```
